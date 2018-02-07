@@ -13,7 +13,7 @@ public class TicketTest {
 	public void testStandardPrice() {
 		
 		int expectedPrice = 8; 
-		int StanderdT = ticket.getStandard();
+		int StanderdT = Ticket.getStandard();
 		assertEquals(expectedPrice,StanderdT);
 		
 	
@@ -21,14 +21,14 @@ public class TicketTest {
 	@Test
 	public void testOAPrice() {
 		int expectedPrice = 6; 
-		int OAPT = ticket.getOAP();
+		int OAPT = Ticket.getOAP();
 		assertEquals(expectedPrice,OAPT);
 	
 	}
 	@Test
 	public void testStudentPrice() {
 		int expectedPrice = 6; 
-		int StudentT = ticket.getStandard();
+		int StudentT = Ticket.getStudent();
 		assertEquals(expectedPrice,StudentT);
 	
 	}
@@ -49,6 +49,9 @@ public class TicketTest {
 	}
 	@Test
 	public void testTotalPrice() {
+		
+		int expectedTotal = 16;
+		int total = ();
 	
 	}
 	

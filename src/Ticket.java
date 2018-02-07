@@ -1,20 +1,24 @@
 
 public class Ticket {
 	
+
+
 	
-	public int getStandard() {
+	
+	
+	public static int getStandard() {
 		return Standard;
 	}
 	public void setStandard(int standard) {
 		Standard = standard;
 	}
-	public int getOAP() {
+	public static int getOAP() {
 		return OAP;
 	}
 	public void setOAP(int oAP) {
 		OAP = oAP;
 	}
-	public int getStudent() {
+	public static int getStudent() {
 		return Student;
 	}
 	public void setStudent(int student) {
@@ -40,12 +44,11 @@ public class Ticket {
 		Child = child;
 		this.iswednesday = iswednesday;
 	}
-	private int Standard = 8;
-	private int OAP = 6;
-	private int Student = 6;
-	private int Child = 4;
-	private boolean iswednesday = true;
-	
+	 static int Standard = 8;
+	 static int OAP = 6;
+	 static int Student = 6;
+	 static int Child = 4;
+	 static boolean iswednesday = true;
 	
 
 
