@@ -34,7 +34,7 @@ public class Ticket {
 		return iswednesday;
 	}
 	public void setIswednesday(boolean iswednesday) {
-		this.iswednesday = iswednesday;
+		Ticket.iswednesday = iswednesday;
 	}
 	public Ticket(int standard, int oAP, int student, int child, boolean iswednesday) {
 		super();
@@ -42,7 +42,7 @@ public class Ticket {
 		OAP = oAP;
 		Student = student;
 		Child = child;
-		this.iswednesday = iswednesday;
+		Ticket.iswednesday = iswednesday;
 	}
 	 static int Standard = 8;
 	 static int OAP = 6;

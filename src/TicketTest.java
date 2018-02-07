@@ -51,7 +51,7 @@ public class TicketTest {
 	public void testTotalPrice() {
 		
 		int expectedTotal = 16;
-		int total = ();
+		//int total = ();
 	
 	}
 	
